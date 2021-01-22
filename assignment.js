@@ -1,6 +1,6 @@
 
 
-// https://github.com/mrahman96/assignment-03/blob/main/assignment.js
+// https://github.com/mrahman96/assignment-03
 
 
 
@@ -17,7 +17,7 @@ function kilometerToMeter(kilometer) {
         return 'Your input is invalid';
     }
 }
-var result = kilometerToMeter(-1);
+var result = kilometerToMeter(1);
 console.log(result);
 
 
@@ -35,7 +35,7 @@ function budgetCalculator(quantityWatch, quantityMobile, quantityLaptop) {
         return "You made a mistake! Please choose a valid quantity!"
     }
 }
-var result = budgetCalculator(-1, 5, 2);
+var result = budgetCalculator(1, 5, 2);
 console.log(result);
 
 
@@ -63,7 +63,7 @@ function hotelCost(dayNumber) {
         return 'Please enter a valid number.'
     }
 }
-var result = hotelCost(-5);
+var result = hotelCost(21);
 console.log(result);
 
 
