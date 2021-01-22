@@ -1,4 +1,8 @@
 
+// https://github.com/mrahman96/assignment-03/blob/main/assignment.js
+
+
+
 // Problem-01: kilometerToMeter
 function kilometerToMeter(kilometer) {
     if (kilometer >= 0) {
@@ -30,7 +34,6 @@ function budgetCalculator(quantityWatch, quantityMobile, quantityLaptop) {
     else {
         return "You made a mistake! Please choose a valid quantity!"
     }
-
 }
 var result = budgetCalculator(-1, 5, 2);
 console.log(result);
@@ -39,7 +42,6 @@ console.log(result);
 
 //Problem-03: hotelCost
 function hotelCost(dayNumber) {
-
     if (dayNumber < 0) {
         return `Number of day can't be negative`;
     }
@@ -70,7 +72,6 @@ console.log(result);
 function megaFriend(arr) {
     var lgth = 0;
     var longest;
-
     for (var i = 0; i < arr.length; i++) {
         if (arr[i].length > lgth) {
             var lgth = arr[i].length;
