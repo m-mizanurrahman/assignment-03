@@ -1,4 +1,5 @@
 
+
 // https://github.com/mrahman96/assignment-03/blob/main/assignment.js
 
 
@@ -30,7 +31,6 @@ function budgetCalculator(quantityWatch, quantityMobile, quantityLaptop) {
     else if (quantityWatch < 0 || quantityMobile < 0 || quantityLaptop < 0) {
         return `Quantity can't be negative`;
     }
-
     else {
         return "You made a mistake! Please choose a valid quantity!"
     }
@@ -82,3 +82,4 @@ function megaFriend(arr) {
 }
 var result = megaFriend(['ram', 'munmun', 'aminul', 'robin']);
 console.log(result);
+
